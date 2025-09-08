@@ -1,0 +1,149 @@
+
+
+body 
+{
+    font-family: "Microsoft YaHei", sans-serif;
+    color: black;
+    line-height: 1.6;
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    width: 21cm;
+    height: 29.7cm;
+    border: 20px double #007c91;
+    border-image: linear-gradient(to right,#007c91, rgb(173,198,229),  white, rgb(215,251,215),rgb(119,175,148));
+    border-image-slice: 20%;
+    outline:3px solid  #007c91;
+    outline-offset:-20px
+}
+
+h1
+{
+    position: relative;
+    top: -11%;
+    color: #007c91;
+    padding-bottom: 5px;
+}
+
+#d1
+{
+    position: relative;
+    top: -12%;
+    float: left;
+    width: 180px;
+    height: 100px;
+}
+
+#d2
+{
+    position: relative;
+    top: -12%;
+    float: left;
+    margin-left: 10px;
+    width: 240px;
+    height: 100px;
+}
+
+#d3
+{
+    position: relative;
+    top: -12%;
+    float: left;
+    margin-left: 10px;
+    width: 150px;
+    height: 100px;
+}
+
+#id
+{
+    position: absolute;
+    left:730px;
+    top:80px;
+
+}
+
+
+h2 
+{
+    color: #007c91;
+    border-bottom: 2px solid #007c91;
+    padding-bottom: 5px;
+}
+
+.section 
+{
+    position: relative;
+    top: -14%;
+
+}
+
+/*倒梯形题头*/
+.title-bar 
+{
+
+    width: 200px;
+    height: 0;
+    border-top: 50px solid #007c91;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    position:relative;
+    top:-50px;
+    left:250px;
+}
+  
+#title-text
+{
+    position: relative;
+    top: -10.5%;
+    left: 41.5%;
+    transform: translate(-50%, -50%);
+    color:white ;
+    font-weight: bold;
+    font-size:27px
+}
+
+ul 
+{
+    padding-left: 20px;
+}
+
+
+/*证书提示悬浮窗*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background: #555;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    left: 200%;          
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.3s opacity;
+}
+
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*证书链接*/
+.certificate-link {
+    color: rgb(25,65,137);
+    font-weight: bold;
+    
+}
+
